@@ -53,7 +53,6 @@ function signIn (req, res) {
 
 // Función para borrar usuarios
 function deleteUser (req, res) {
-	console.log('DELETE /api/user');
 
 	// Se usa findOne de Mongoose en vez de User.remove para evitar borrado
 	// de mas de un elemento por error
